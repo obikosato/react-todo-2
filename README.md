@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# TODO App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React を用いた簡単な TODO アプリです。
 
-## Available Scripts
+## ディレクトリ構成
 
-In the project directory, you can run:
+todoapp/ 以下のディレクトリ構成です。
+
+- src
+  - components  
+    コンポーネントの置き場
+  - hooks
+    カスタムフックの置き場
+
+## 使用できるコマンド
+
+todoapp/ 直下で使用できるコマンドです。
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ローカルでアプリを実行します。\
+[http://localhost:8000](http://localhost:8000)を開いて、ブラウザで表示します。
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+テストを実行します。
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+プロダクションビルドを実行します。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 開発環境
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- OS： Debian GNU/Linux 11 (bullseye)
+- Node のバージョン： v16.14.0
+- TypeScript のバージョン: 4.5.5
+- React のバージョン： 17.0.2
